@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="DELETE">
+        <active>true</active>
+        <map display_value="Derived Table">e70837831b063010a6a9c803604bcbb7</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	// Add your code here
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-23 11:36:50</sys_created_on>
+        <sys_id>6fea37071b063010a6a9c803604bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onStart</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_transform_script_6fea37071b063010a6a9c803604bcb06</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-23 11:36:50</sys_updated_on>
+        <when>onStart</when>
+    </sys_transform_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>7108d114db08bc10e26fd7c8f49619b1</instance_id>
+        <instance_name>dev113620</instance_name>
+        <name>sys_transform_script_6fea37071b063010a6a9c803604bcb06</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;&lt;sys_transform_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;map display_value="Derived Table"&gt;e70837831b063010a6a9c803604bcbb7&lt;/map&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	// Add your code here
+
+})(source, map, log, target);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-23 11:36:50&lt;/sys_created_on&gt;&lt;sys_id&gt;6fea37071b063010a6a9c803604bcb06&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;onStart&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_script_6fea37071b063010a6a9c803604bcb06&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-23 11:36:50&lt;/sys_updated_on&gt;&lt;when&gt;onStart&lt;/when&gt;&lt;/sys_transform_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1515192671</payload_hash>
+        <record_name>onStart</record_name>
+        <reverted_from/>
+        <source>0af00d521bc67010a6a9c803604bcbf0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-23 11:36:50</sys_created_on>
+        <sys_id>bd3bb7071b063010a6a9c803604bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b72cc82aa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-23 11:36:50</sys_updated_on>
+        <type>Transform Script</type>
+        <update_guid>3d3b7fcf52c2301028eb63d93b5b0c2f</update_guid>
+        <update_guid_history>3d3b7fcf52c2301028eb63d93b5b0c2f:-1515192671</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-23 11:55:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_script">sys_transform_script</sys_db_object>
+        <sys_id>0275e1f3bf03450e80e59495d3b7cfa4</sys_id>
+        <sys_metadata>6fea37071b063010a6a9c803604bcb06</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onStart</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">e70837831b063010a6a9c803604bcbb7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_transform_script_6fea37071b063010a6a9c803604bcb06</sys_update_name>
+        <sys_update_version display_value="sys_transform_script_6fea37071b063010a6a9c803604bcb06">bd3bb7071b063010a6a9c803604bcbe3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-23 11:55:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
