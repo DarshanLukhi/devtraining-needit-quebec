@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Configuration" max_length="40" name="x_58872_needit_configuration" sizeclass="5" type="collection">
+    <element label="Configuration" max_length="40" name="x_58872_needit_configuration" type="collection">
         <element label="Password" mandatory="true" max_length="255" name="password" type="string"/>
+        <element label="ref" max_length="32" name="reff" reference="incident" type="reference"/>
         <element display="true" label="URL" max_length="40" name="url" type="string"/>
         <element label="Username" mandatory="true" max_length="16" name="username" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Games" max_length="40" name="u_games" type="string">
@@ -11,11 +12,14 @@
                 <element inactive_on_update="false" label="Foosball" sequence="3" value="foosball"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="indoor" label="Game type" max_length="40" name="u_game_type" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Game type" max_length="40" name="u_game_type" type="string">
             <choice>
                 <element inactive_on_update="false" label="Indoor" sequence="0" value="indoor"/>
                 <element inactive_on_update="false" label="Outdoor" sequence="1" value="outdoor"/>
             </choice>
         </element>
+        <index name="index">
+            <element name="reff"/>
+        </index>
     </element>
 </database>
