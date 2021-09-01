@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_58872_needit_configuration</name>
+        <name>x_58872_needit_credentials</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-08-25 11:19:53</sys_created_on>
-        <sys_id>058a827b1b02b010a6a9c803604bcbb8</sys_id>
+        <sys_created_on>2021-08-30 12:09:49</sys_created_on>
+        <sys_id>74e544291b5e7010a6a9c803604bcb7c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_58872_needit_configuration</sys_name>
+        <sys_name>x_58872_needit_credentials</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>ua_table_licensing_config_058a827b1b02b010a6a9c803604bcbb8</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_74e544291b5e7010a6a9c803604bcb7c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-25 11:19:53</sys_updated_on>
+        <sys_updated_on>2021-08-30 12:09:49</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>
